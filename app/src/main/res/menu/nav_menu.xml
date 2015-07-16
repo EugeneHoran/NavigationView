@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_frag_one"
+            android:title="Fragment 1" />
+        <item
+            android:id="@+id/nav_frag_two"
+            android:title="Fragment 2" />
+    </group>
+    <group android:id="@+id/my_id">
+        <item
+            android:id="@+id/nav_settings"
+            android:title="Settings" />
+    </group>
+
+
+</menu>
